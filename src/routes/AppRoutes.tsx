@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AppLayout from "../layout/AppLayout";
-import Home from "../pages/Home";
-import Tasks from "../pages/Tasks";
+import Home from "../pages/Dashboard";
+import Tasks from "../pages/Missions";
 import Team from "../pages/Team";
 
 export default function AppRoutes() {
